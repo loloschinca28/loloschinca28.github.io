@@ -1,12 +1,11 @@
 export const personalInfo = {
-  name: "Lorem Ipsum",
-  location: "Dolor Sit Amet",
-  email: "lorem@ipsum.com",
-  github: "https://github.com/loremipsum",
-  linkedin: "https://linkedin.com/in/loremipsum",
-  profilePicture: "/profile.jpeg",
+  name: "Lorenzo Schinca",
+  location: "Montevideo, Uruguay",
+  email: "loloschinca28@gmail.com",
+  linkedin: "https://www.linkedin.com/in/loloschinca28/",
+  profilePicture: "/imagenCV.jpg",
   heroDescription:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "Motivado por resolver problemas reales a través del software. Desarrollo aplicaciones innovadoras, eficientes, funcionales y alineadas con las mejores prácticas de desarrollo."
 };
 
 export const workExperience = [
@@ -49,71 +48,105 @@ export const workExperience = [
 
 export const education = [
   {
-    institution: "Lorem Ipsum University",
-    location: "Lorem City",
-    degree: "BSc Lorem Ipsum",
-    period: "2015 - 2019",
+    institution: "Universidad ORT",
+    location: "Montevideo, Uruguay",
+    degree: "Analista en Tecnologías de la Información",
+    period: "2023 - 2026",
     achievements: [
-      "President of Lorem Ipsum Club",
-      "Organized multiple lorem events",
-      "Represented university in national competitions.",
-      "Graduated with honors.",
+      "Actualmente cursando la carrera orientada al desarrollo de software, bases de datos y arquitectura de sistemas.",
+      "Profundizando en programación orientada a objetos, patrones de diseño y desarrollo de aplicaciones web.",
     ],
   },
+   {
+    institution: "Universidad ORT",
+    location: "Montevideo, Uruguay",
+    degree: "Diploma de Programador Web | Título intermedio",
+    period: "2023 - 2025",
+    achievements: [
+      "Obtuve el diploma intermedio de Programador Web.",
+      "Desarrollé proyectos prácticos de sitios web y aplicaciones.",
+    ],
+  },
+   {
+    institution: "Billabong College",
+    location: "Montevideo, Uruguay",
+    degree: "Formación en inglés",
+    period: "Cursando desde 2022",
+    achievements: [
+      "Enfoque profesional en el aprendizaje y perfeccionamiento del inglés, comprometido con fortalecer habilidades en comunicación oral, escritura y comprensión del idioma.",
+    ],
+  },
+  
 ];
 export const skills = {
   programmingLanguages: [
-    "LoremLang",
-    "IpsumScript",
-    "DolorLang",
-    "SitLang",
-    "AmetLang",
-    "ConsecteturLang",
+    "C#",
+    "Java",
+    "JavaScript",
   ],
   frontendDevelopment: [
-    "LoremJS",
-    "IpsumJS",
-    "Dolor Native",
-    "Sit UI",
-    "Amet CSS",
     "HTML",
     "CSS",
+    "Bootstrap",
+    "ReactJS",
+    "Redux",
+    "Tailwind CSS",
   ],
-  backendDevelopment: ["LoremNode", "IpsumExpress"],
-  databaseAndStorage: ["LoremDB", "IpsumORM"],
-  cloudAndDevOps: ["LoremCloud"],
+  backendDevelopment: [
+    ".NET MVC",
+    "Entity Framework",
+    "Node.js",
+    "APIs RESTful",
+  ],
+  databaseAndStorage: [
+    "Microsoft SQL Server",
+    "MongoDB",
+  ],
+  cloudAndDevOps: [
+    "Azure",
+    "AWS",
+  ],
   toolsAndServices: [
-    "LoremAuth",
-    "IpsumCMS",
-    "DolorAnalytics",
-    "SitValidator",
-    "AmetMonitor",
-    "ConsecteturPanel",
-    "AdipiscingTrigger",
+    "Visual Studio",
+    "VS Code",
+    "NetBeans",
+    "IntelliJ IDEA",
+    "Git",
+    "GitHub",
+    "Postman",
   ],
+    artificialIntelligenceAndAutomation: [
+    "Integración de soluciones con IA generativa",
+  ],
+  architectureAndBestPractices: [
+    "Arquitectura de software",
+    "Buenas prácticas de desarrollo",
+    "Eficiencia y calidad en los proyectos",
+  ],
+  
 };
 
 export const projects = [
   {
-    title: "Lorem Ipsum Project",
-    github: "https://github.com/loremipsum/project",
+    title: "AgroGestión",
+    github: "https://agro-gestion.azurewebsites.net/",
+    image: "/MockupAgro.png",
     description: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse.",
-      "Excepteur sint occaecat cupidatat non proident.",
+      "Plataforma integral para gestión de establecimientos agrícolas en ASP.NET Core y C#. Administra personal, tareas, ganado y potreros con diseño 100% responsivo.",
+      "Tecnologías utlizadas:",
+      "ASP.NET Core, C#",
     ],
+    
+ 
   },
   {
-    title: "Dolor Sit Amet App",
-    github: "https://github.com/loremipsum/dolorapp",
+    title: "NimbusGrid",
+    github: "https://loloschinca28.github.io/NimbusGrid./",
+    image: "/MockupNimbusGrid.png",
     description: [
-      "Morbi in sem quis dui placerat ornare.",
-      "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam.",
-      "Praesent dapibus, neque id cursus faucibus.",
-      "Fusce feugiat malesuada odio.",
-      "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.",
+      "Plataforma de gestión de infraestructura en la nube. Simplifica el alquiler y administración de máquinas virtuales con control seguro, escalable e intuitivo con diseño 100% responsivo.",
+      "Tecnologías utilizadas:",
+      "HTML, CSS, JavaScript",
     ],
   },
 ];

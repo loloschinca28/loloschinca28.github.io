@@ -7,13 +7,13 @@ import { motion } from "framer-motion";
 export default function EducationSection() {
   return (
     <section
-      id="education"
+      id="educacion"
       className="py-12 bg-gradient-to-b from-muted/10 to-background"
     >
       <div className="container max-w-4xl mx-auto px-6 md:px-4">
         <MotionWrapper>
           <h2 className="text-2xl font-bold mb-8 text-center md:text-left">
-            🎓 Education
+             Educación
           </h2>
         </MotionWrapper>
 
@@ -27,9 +27,7 @@ export default function EducationSection() {
               isLast={index === education.length - 1}
               index={index}
             >
-              <p className="text-sm text-muted-foreground mb-3">
-                📍 {edu.location}
-              </p>
+     
 
               {edu.achievements && edu.achievements.length > 0 && (
                 <motion.div
@@ -44,7 +42,7 @@ export default function EducationSection() {
                       <Award className="h-4 w-4 text-purple-500" />
                     </div>
                     <h4 className="text-sm font-medium">
-                      ✨ Achievements & Activities
+                      Logros 
                     </h4>
                   </div>
                   <ul className="list-none ml-4 space-y-2 text-sm">
