@@ -27,7 +27,7 @@ export default function HeroSection() {
   };
 
   return (
-    <section className="py-16 md:py-50 relative overflow-hidden">
+    <section className="py-16 md:py-32 lg:py-40 relative overflow-hidden">
       <div className="container max-w-4xl mx-auto px-6 md:px-4 relative z-10">
         <motion.div
           className="flex flex-col md:flex-row md:items-center justify-between mb-8"
@@ -41,12 +41,12 @@ export default function HeroSection() {
               variants={childVariants}
             >
               {personalInfo.name}{" "}
-              
             </motion.h1>
 
             <motion.p
               className="text-xl text-muted-foreground mb-6"
               variants={childVariants}
+              translate="no"
             >
               Desarrollador de Software 👨‍💻
             </motion.p>
@@ -61,7 +61,7 @@ export default function HeroSection() {
                 whileHover={{ scale: 1.05, color: "#4b5563" }}
               >
                 <MapPin className="h-4 w-4 mr-2" />
-                 {personalInfo.location}
+                {personalInfo.location}
               </motion.div>
 
               <motion.a
@@ -74,9 +74,7 @@ export default function HeroSection() {
               >
                 <Mail className="h-4 w-4 mr-2" />
                 {personalInfo.email}
-            </motion.a>
-
- 
+              </motion.a>
 
               <motion.a
                 href={personalInfo.linkedin}
@@ -87,7 +85,7 @@ export default function HeroSection() {
                 whileHover={{ scale: 1.05, color: "#4b5563" }}
               >
                 <Linkedin className="h-4 w-4 mr-2" />
-                 LinkedIn
+                LinkedIn
               </motion.a>
             </motion.div>
           </div>

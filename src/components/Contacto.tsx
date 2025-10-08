@@ -59,13 +59,14 @@ export default function Contacto() {
           </motion.h2>
 
           <motion.p
-            className="text-sm md:text-base text-muted-foreground mb-8"
-            initial={{ opacity: 0, x: -20 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-          >
-            ¿Tienes alguna pregunta o un proyecto en mente? No dudes en contactarme.
-          </motion.p>
+  className="text-sm md:text-base text-muted-foreground mb-8"
+  initial={{ opacity: 0, x: -20 }}
+  whileInView={{ opacity: 1, x: 0 }}
+  viewport={{ once: true }}
+  translate="no"
+>
+  ¿Tienes alguna pregunta o un proyecto en mente? No dudes en contactarme.
+</motion.p>
         </div>
 
         {/* Columna derecha: formulario */}

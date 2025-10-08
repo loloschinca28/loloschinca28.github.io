@@ -80,7 +80,7 @@ export const education = [
 ];
 export const skills = {
   programmingLanguages: [
-    "C#",
+    "C&#35;",
     "Java",
     "JavaScript",
   ],
@@ -115,7 +115,7 @@ export const skills = {
     "GitHub",
     "Postman",
   ],
-    artificialIntelligenceAndAutomation: [
+  artificialIntelligenceAndAutomation: [
     "Integración de soluciones con IA generativa",
   ],
   architectureAndBestPractices: [
@@ -123,7 +123,6 @@ export const skills = {
     "Buenas prácticas de desarrollo",
     "Eficiencia y calidad en los proyectos",
   ],
-  
 };
 
 export const projects = [
@@ -133,7 +132,7 @@ export const projects = [
     image: "/MockupAgro.png",
     description: [
       "Plataforma integral para gestión de establecimientos agrícolas en ASP.NET Core y C#. Administra personal, tareas, ganado y potreros con diseño 100% responsivo.",
-      "Tecnologías utlizadas:",
+      "Tecnologías utilizadas:",
       "ASP.NET Core, C#",
     ],
     

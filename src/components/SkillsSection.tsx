@@ -17,9 +17,9 @@ function SkillTag({ skill, index }: { skill: string; index: number }) {
       }}
       whileHover={{ scale: 1.05, y: -2 }}
       className="px-3 py-1 bg-muted/80 backdrop-blur-sm rounded-md text-sm border border-purple-500/10 shadow-sm"
-    >
-      {skill}
-    </motion.div>
+      translate="no" // Evita traducción de todo el tag
+      dangerouslySetInnerHTML={{ __html: skill }} // Interpreta C&#35;
+    />
   );
 }
 
